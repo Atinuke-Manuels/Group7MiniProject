@@ -4,6 +4,7 @@ plugins {
 }
 
 android {
+<<<<<<< HEAD
     namespace = "com.wtm.wtmnotesapp"
     compileSdk = 34
 
@@ -11,13 +12,25 @@ android {
         applicationId = "com.wtm.wtmnotesapp"
         minSdk = 24
         targetSdk = 34
+=======
+    namespace = "com.debbie.group7miniproject"
+    compileSdk = 33
+
+    defaultConfig {
+        applicationId = "com.debbie.group7miniproject"
+        minSdk = 24
+        targetSdk = 33
+>>>>>>> 4fd97008b84c2a8820b6292b426b859ecfd91d63
         versionCode = 1
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+<<<<<<< HEAD
         vectorDrawables {
             useSupportLibrary = true
         }
+=======
+>>>>>>> 4fd97008b84c2a8820b6292b426b859ecfd91d63
     }
 
     buildTypes {
@@ -36,6 +49,7 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+<<<<<<< HEAD
     buildFeatures {
         compose = true
     }
@@ -47,10 +61,13 @@ android {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
     }
+=======
+>>>>>>> 4fd97008b84c2a8820b6292b426b859ecfd91d63
 }
 
 dependencies {
 
+<<<<<<< HEAD
     implementation("androidx.navigation:navigation-compose:2.7.5")
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
@@ -67,4 +84,13 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+=======
+    implementation("androidx.core:core-ktx:1.9.0")
+    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("com.google.android.material:material:1.8.0")
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+    testImplementation("junit:junit:4.13.2")
+    androidTestImplementation("androidx.test.ext:junit:1.1.5")
+    androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+>>>>>>> 4fd97008b84c2a8820b6292b426b859ecfd91d63
 }

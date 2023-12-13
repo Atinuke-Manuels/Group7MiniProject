@@ -1,3 +1,7 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">WTM  Notes App</string>
+=======
+    <string name="app_name">Group7MiniProject</string>
+>>>>>>> 4fd97008b84c2a8820b6292b426b859ecfd91d63
 </resources>
